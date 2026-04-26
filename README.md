@@ -25,12 +25,30 @@ Before visualization, the raw data (`Store+Data.xlsx`) underwent rigorous ETL pr
   - Generated a unique `Order ID` index column serving as a primary surrogate key for unique line-item tracking.
 
 ## Dashboard Pages & Insights
+
 1. **Sales Analysis:** High-level executive view featuring the `Total Orders` KPI (3,510), time-series trends tracking sales volume, and a Geospatial Map highlighting heavy sales concentrations in major Indian cities.
+
+   <img width="1373" height="788" alt="image" src="https://github.com/user-attachments/assets/e0f3b7ed-3bfc-4577-aae6-e4563225a668" />
+
 2. **Date Comparison:** An advanced reporting page utilizing two parallel date slicers, allowing end-users to uniquely compare custom historical periods side-by-side across Sales, Profit, and Quantity.
+
+   <img width="1372" height="773" alt="image" src="https://github.com/user-attachments/assets/6d3a77fe-9018-4965-94c5-472753f5df9a" />
+
 3. **Top/Bottom Analysis:** Diagnostic bar charts rapidly isolating core business drivers (e.g., iPhone 14 dominating top sales vs. hygiene products lagging).
+
+   <img width="1376" height="774" alt="image" src="https://github.com/user-attachments/assets/f075dd94-8580-4691-b25b-514f2e5e8000" />  
+
 4. **Discount Analysis:** Evaluates the aggregate impact of marketing campaigns, revealing 'Weekend Flash Sales' yielding the highest average discount value at 22.6K.
+
+   <img width="1378" height="775" alt="image" src="https://github.com/user-attachments/assets/293ad620-5581-4403-9d26-b9a784620365" />
+
 5. **Profit vs Sales:** A scatter plot map displaying the strict 10% profit margin correlation across transactional revenue clusters.
+
+   <img width="1375" height="773" alt="image" src="https://github.com/user-attachments/assets/f7f66402-d094-44ce-9fe4-1dc3e1ed26f2" />
+
 6. **Detailed Matrix:** A high-granularity lookup table enabling users to drill down into individual Order IDs, dynamically filterable by Customer, Product, Date, and Promotion type.
+
+   <img width="1375" height="771" alt="image" src="https://github.com/user-attachments/assets/1656dda7-657b-4eb0-be2c-8ee5055a1793" />
 
 ## How to Run Locally
 1. Clone this repository.
